@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Results</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+
+<div class="container">
+    <h1>📊 Quiz Results</h1>
+    <p class="score-text">You scored <strong>{{ score }}</strong> out of <strong>{{ total }}</strong>.</p>
+
+    {% for item in results %}
+        <div class="card result-card {% if item.is_correct %}correct{% else %}wrong{% endif %}">
+            <p class="question-text"><strong>Q{{ loop.index }}.</strong> {{ item.question }}</p>
+
+            <ul class="options-list">
+                {% for key, text in item.options.items() %}
+                    <li
+                        class="
+                            option-result
+                            {% if key == item.correct %}correct-answer{% endif %}
+                            {% if key == item.chosen and not item.is_correct %}chosen-wrong{% endif %}
+                        "
+                    >
+                        <strong>{{ key }})</strong> {{ text }}
+                        {% if key == item.correct %} ✅ Correct{% endif %}
+                        {% if key == item.chosen and not item.is_correct %} ❌ Your choice{% endif %}
+                    </li>
+                {% endfor %}
+            </ul>
+
+            <p class="result-summary">
+                ✅ Correct answer: <strong>{{ item.correct }}</strong> |
+                🧑 You chose: <strong>{{ item.chosen if item.chosen else "No answer" }}</strong>
+            </p>
+        </div>
+    {% endfor %}
+
+    <a href="/" class="btn secondary">Generate Another Quiz</a>
+</div>
+
+</body>
+</html>

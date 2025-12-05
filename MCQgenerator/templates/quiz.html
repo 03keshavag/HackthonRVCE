@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Quiz</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+
+<div class="container">
+    <h1>📝 Quiz Time</h1>
+
+    <div class="card">
+        <h2>📘 Summary</h2>
+        <p class="summary-text">{{ summary }}</p>
+    </div>
+
+    <form action="/submit" method="post">
+        {% for q in questions %}
+            {% set q_index = loop.index0 %}
+            <div class="card question-card">
+                <p class="question-text"><strong>Q{{ loop.index }}.</strong> {{ q.question }}</p>
+
+                {% for key, text in q.options.items() %}
+                    <label class="option-label">
+                        <!-- Name is bound to question index -->
+                        <input type="radio" name="q{{ q_index }}" value="{{ key }}" required>
+                        <span class="option-letter">{{ key }})</span> {{ text }}
+                    </label>
+                {% endfor %}
+            </div>
+        {% endfor %}
+
+        <button type="submit" class="btn primary">Submit Answers</button>
+    </form>
+</div>
+
+</body>
+</html>
