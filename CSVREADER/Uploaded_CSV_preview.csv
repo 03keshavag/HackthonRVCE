@@ -1,0 +1,50 @@
+col1,col2,col1_norm,col2_norm
+term_english,term_kannada,term_english,term_kannada
+Physics,ಭೌತಶಾಸ್ತ್ರ,Physics,ಭೌತಶಾಸ್ತ್ರ
+Chemistry,ರಸಾಯನಶಾಸ್ತ್ರ,Chemistry,ರಸಾಯನಶಾಸ್ತ್ರ
+Biology,ಜೀವಶಾಸ್ತ್ರ,Biology,ಜೀವಶಾಸ್ತ್ರ
+Computer Science,ಗಣಕಶಾಸ್ತ್ರ,Computer Science,ಗಣಕಶಾಸ್ತ್ರ
+Force,ಬಲ,Force,ಬಲ
+Acceleration,ತ್ವರಣೆ,Acceleration,ತ್ವರಣೆ
+Velocity,ವೇಗ,Velocity,ವೇಗ
+Inertia,ಜಾವ,Inertia,ಜಾವ
+Energy,ಶಕ್ತಿ,Energy,ಶಕ್ತಿ
+Kinetic Energy,ಚಲನಶಕ್ತಿ,Kinetic Energy,ಚಲನಶಕ್ತಿ
+Potential Energy,ಸ್ಥಿತಿಶಕ್ತಿ,Potential Energy,ಸ್ಥಿತಿಶಕ್ತಿ
+Friction,ಘರ್ಷಣೆ,Friction,ಘರ್ಷಣೆ
+Wave,ತರಂಗ,Wave,ತರಂಗ
+Frequency,ಆವೃತ್ತಿ,Frequency,ಆವೃತ್ತಿ
+Electric Current,ವಿದ್ಯುತ್ಪ್ರವಾಹ,Electric Current,ವಿದ್ಯುತ್ಪ್ರವಾಹ
+Voltage,ವೋಲ್ಟೇಜ್,Voltage,ವೋಲ್ಟೇಜ್
+Resistance,ಪ್ರತಿರೋಧ,Resistance,ಪ್ರತಿರೋಧ
+Atom,ಪರಮಾಣು,Atom,ಪರಮಾಣು
+Molecule,ಅಣು,Molecule,ಅಣು
+Acid,ಆಮ್ಲ,Acid,ಆಮ್ಲ
+Base,ಕ್ಷಾರ,Base,ಕ್ಷಾರ
+Compound,ಸಂಯೋಗ,Compound,ಸಂಯೋಗ
+Solution,ದ್ರಾವಣ,Solution,ದ್ರಾವಣ
+Cell,ಕೋಶ,Cell,ಕೋಶ
+Nucleus,ಕೋಶಕೇಂದ್ರ,Nucleus,ಕೋಶಕೇಂದ್ರ
+Respiration,ಉಸಿರಾಟ,Respiration,ಉಸಿರಾಟ
+Nutrition,ಪೋಷಣ,Nutrition,ಪೋಷಣ
+Algorithm,ಅಲ್ಗೋರಿದಮ್,Algorithm,ಅಲ್ಗೋರಿದಮ್
+Data,ಡೇಟಾ,Data,ಡೇಟಾ
+Network,ಜಾಲ,Network,ಜಾಲ
+Processor,ಪ್ರೊಸೆಸರ್,Processor,ಪ್ರೊಸೆಸರ್
+Memory,ಮೆಮೊರಿ,Memory,ಮೆಮೊರಿ
+Storage,ಸಂಗ್ರಹಣೆ,Storage,ಸಂಗ್ರಹಣೆ
+File System,ಫೈಲ್ ಸಿಸ್ಟಮ್,File System,ಫೈಲ್ ಸಿಸ್ಟಮ್
+Baseball,Cricket,Baseball,Cricket
+Snow,ಮಳೆ / ಮಂಜು,Snow,ಮಳೆ / ಮಂಜು
+Burger,ದೋಸೆ,Burger,ದೋಸೆ
+Pancakes,ದೋಸೆ / ಚಪಾತಿ,Pancakes,ದೋಸೆ / ಚಪಾತಿ
+Subway,ಮೆಟ್ರೋ ರೈಲು,Subway,ಮೆಟ್ರೋ ರೈಲು
+Freeway,ರಾಷ್ಟ್ರೀಯ ಹೆದ್ದಾರಿ,Freeway,ರಾಷ್ಟ್ರೀಯ ಹೆದ್ದಾರಿ
+Locker Room,ಬಟ್ಟೆ ಬದಲಿಸುವ ಕೊಠಡಿ,Locker Room,ಬಟ್ಟೆ ಬದಲಿಸುವ ಕೊಠಡಿ
+Dorm Room,ಹಾಸ್ಟೆಲ್ ಕೊಠಡಿ,Dorm Room,ಹಾಸ್ಟೆಲ್ ಕೊಠಡಿ
+Elevator,ಲಿಫ್ಟ್,Elevator,ಲಿಫ್ಟ್
+Skateboard,ಸೈಕಲ್,Skateboard,ಸೈಕಲ್
+Hotdog,ಪಾವ್ ಭಾಜಿ,Hotdog,ಪಾವ್ ಭಾಜಿ
+Thanksgiving,ಹಬ್ಬದ ಕೂಟ,Thanksgiving,ಹಬ್ಬದ ಕೂಟ
+Ice Rink,ಕ್ರೀಡಾಂಗಣ,Ice Rink,ಕ್ರೀಡಾಂಗಣ
+Parking Lot,ಪಾರ್ಕಿಂಗ್ ಸ್ಥಳ,Parking Lot,ಪಾರ್ಕಿಂಗ್ ಸ್ಥಳ
